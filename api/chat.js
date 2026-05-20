@@ -77,7 +77,10 @@ export default async function handler(req, res) {
 
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
-    return res.status(500).json({ error: "GEMINI_API_KEY not configured" });
+    return res.status(500).json({
+      error: "GEMINI_API_KEY not configured",
+      hint: "Set GEMINI_API_KEY in Vercel → Settings → Environment Variables, then Redeploy.",
+    });
   }
 
   try {
@@ -87,7 +90,8 @@ export default async function handler(req, res) {
     }
 
     // Call Gemini API directly (free tier on Google AI Studio)
-    const model = "gemini-2.0-flash-exp"; // Free, fast, public Gemini model
+    // gemini-2.0-flash is the stable free model; fallback to gemini-1.5-flash if needed
+    const model = process.env.GEMINI_MODEL || "gemini-2.0-flash";
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
     const body = {

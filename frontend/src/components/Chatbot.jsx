@@ -54,7 +54,10 @@ export default function Chatbot() {
         ...m,
         {
           role: "assistant",
-          text: "I couldn't reach the model right now. Please try again in a moment.",
+          text:
+            e?.response?.data?.hint ||
+            e?.response?.data?.error ||
+            "I couldn't reach the model right now. Please try again in a moment.",
         },
       ]);
     } finally {
