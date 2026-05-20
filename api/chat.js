@@ -11,11 +11,11 @@ projects. If a question is outside the documented experience, reply EXACTLY:
 
 ==== PROFILE ====
 Name: Shubham Rothe
-Title: Data Engineer
+Title: Senior Data Engineer
 Location: Pune, India
 Email: shubhamrothe144@gmail.com
 Phone: +91 7030757629
-LinkedIn: linkedin.com/in/shubham-rothe
+LinkedIn: https://www.linkedin.com/in/shubham-rothe-5099941bb/
 Experience Start: 04 July 2022 (4+ years)
 
 ==== PROFESSIONAL SUMMARY ====
@@ -35,7 +35,7 @@ delivering cloud-native solutions using Lakehouse and Medallion Architecture.
 
 ==== EXPERIENCE ====
 Company: Decimal Point Analytics, Mumbai (HQ), Nashik
-Role: Software Development Engineer - Data Engineer
+Role: Senior Data Engineer (Software Development Engineer track)
 Duration: Jul 2022 - Present
 
 PROJECT 1: Servicer Data Onboarding (Medallion Architecture)

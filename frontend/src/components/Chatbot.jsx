@@ -5,8 +5,8 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Link } from "react-router-dom";
 
-// Works both on Emergent (REACT_APP_BACKEND_URL set) and on Vercel (empty -> same-origin /api)
-const API = `${process.env.REACT_APP_BACKEND_URL || ""}/api`;
+// Always relative — works on Emergent (ingress routes /api → backend) AND Vercel (serverless fn)
+const API = "/api";
 
 const SUGGESTIONS = [
   "What is your Databricks experience?",

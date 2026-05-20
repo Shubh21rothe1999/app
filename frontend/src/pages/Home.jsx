@@ -50,10 +50,10 @@ export default function Home() {
             className="text-4xl sm:text-5xl lg:text-6xl tracking-tighter font-black leading-[1.05]"
             data-testid="hero-headline"
           >
-            Building <span className="text-zinc-400 dark:text-zinc-600">Lakehouse</span>
+            Building <span className="bg-gradient-to-r from-sky-500 via-cyan-400 to-emerald-400 dark:from-sky-400 dark:via-cyan-300 dark:to-emerald-300 bg-clip-text text-transparent">Lakehouse</span>
             <br />
             pipelines that{" "}
-            <span className="bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 dark:from-violet-400 dark:to-fuchsia-400 bg-clip-text text-transparent">
               actually scale.
             </span>
           </motion.h1>
@@ -65,7 +65,7 @@ export default function Home() {
             className="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl leading-relaxed"
             data-testid="hero-subtext"
           >
-            I'm <strong className="text-zinc-900 dark:text-white">Shubham Rothe</strong> — a Data Engineer
+            I'm <strong className="text-zinc-900 dark:text-white">Shubham Rothe</strong> — a Senior Data Engineer
             with 4+ years building production ETL/ELT pipelines on Databricks, PySpark, Delta Lake
             and the cloud for financial, banking and loan datasets.
           </motion.p>
@@ -141,7 +141,7 @@ export default function Home() {
                 pune · india
               </div>
               <div className="text-white font-bold text-lg">{PROFILE.name}</div>
-              <div className="text-white/80 text-sm">Data Engineer · 4+ yrs</div>
+              <div className="text-white/80 text-sm">Senior Data Engineer · 4+ yrs</div>
             </div>
           </div>
           <div className="absolute -z-10 -inset-6 rounded-3xl bg-zinc-100 dark:bg-white/[0.03] blur-2xl" />

@@ -1,19 +1,17 @@
 // Single source of truth for all portfolio content.
 export const PROFILE = {
   name: "Shubham Rothe",
-  title: "Data Engineer",
+  title: "Senior Data Engineer",
   tagline:
     "Databricks · PySpark · SQL · Cloud — building Lakehouse pipelines that move billions of rows reliably.",
   email: "shubhamrothe144@gmail.com",
   phone: "+91 7030757629",
   location: "Pune, India",
-  linkedin: "https://www.linkedin.com/in/shubham-rothe",
+  linkedin: "https://www.linkedin.com/in/shubham-rothe-5099941bb/",
   github: "",
   startDate: "2022-07-04",
-  photo:
-    "https://customer-assets.emergentagent.com/job_7b7e560b-60e1-4f54-ba15-d678278d4467/artifacts/wai4li8h_Shubham_img.jpeg",
-  resumeUrl:
-    "https://customer-assets.emergentagent.com/job_7b7e560b-60e1-4f54-ba15-d678278d4467/artifacts/pv2ufhx1_Shubham_Rothe_DE_4_YRS.pdf",
+  photo: "/shubham.jpg",
+  resumeUrl: "/Shubham_Rothe_Data_Engineer.pdf",
   resumeFileName: "Shubham_Rothe_Data_Engineer.pdf",
 };
 
@@ -53,14 +51,14 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     company: "Decimal Point Analytics",
-    role: "Software Development Engineer — Data Engineer",
+    role: "Senior Data Engineer",
     location: "Mumbai (HQ) · Working from Nashik",
     period: "Jul 2022 — Present",
     active: true,
     projects: [
       {
         title: "Servicer Data Onboarding — Medallion Architecture",
-        role: "Lead Data Engineer",
+        role: "Senior Data Engineer · Project Lead",
         tags: ["Databricks", "PySpark", "Delta Lake", "AWS S3", "Prophecy", "Unity Catalog", "JAMS"],
         bullets: [
           "Led 2 junior developers and ran a 20-day PySpark / SQL / Databricks training to accelerate onboarding.",
@@ -79,7 +77,7 @@ export const EXPERIENCE = [
       },
       {
         title: "US Banking & Client Data Integration",
-        role: "ETL & Database Developer",
+        role: "Senior Data Engineer · ETL & Database",
         tags: ["SQL Server", "T-SQL", "Pentaho", "Stored Procedures", "Data Modeling"],
         bullets: [
           "Developed dynamic stored procedures, functions and parameter-driven SQL for financial reporting.",
@@ -90,7 +88,7 @@ export const EXPERIENCE = [
       },
       {
         title: "Mutual Fund Automation",
-        role: "ETL Developer",
+        role: "Senior Data Engineer · ETL",
         tags: ["Pentaho", "Oracle", "SQL Server", "PL/SQL", "Star Schema"],
         bullets: [
           "Built Pentaho ETL workflows for NAV and holdings ingestion from CSV / TXT / Excel.",
