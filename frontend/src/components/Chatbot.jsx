@@ -68,7 +68,7 @@ export default function Chatbot() {
         <button
           data-testid="chatbot-open-button"
           onClick={() => setOpen(true)}
-          className="fixed z-50 bottom-5 right-5 h-14 w-14 rounded-full bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 grid place-items-center shadow-[0_10px_40px_-10px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform"
+          className="fixed z-50 bottom-24 right-5 h-14 w-14 rounded-full bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 grid place-items-center shadow-[0_10px_40px_-10px_rgba(0,0,0,0.4)] hover:scale-105 transition-transform"
           aria-label="Open chatbot"
         >
           <MessageSquare size={22} />
@@ -78,7 +78,7 @@ export default function Chatbot() {
       {open && (
         <div
           data-testid="chatbot-window"
-          className="fixed z-50 bottom-5 right-5 w-[92vw] max-w-[400px] h-[78vh] max-h-[640px] rounded-xl border border-zinc-200 dark:border-white/10 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-xl shadow-2xl flex flex-col overflow-hidden"
+          className="fixed z-50 bottom-24 right-5 w-[92vw] max-w-[400px] h-[78vh] max-h-[640px] rounded-xl border border-zinc-200 dark:border-white/10 bg-white/95 dark:bg-zinc-950/95 backdrop-blur-xl shadow-2xl flex flex-col overflow-hidden"
         >
           <div className="flex items-center justify-between px-4 py-3 border-b border-zinc-200 dark:border-white/10 bg-zinc-50/80 dark:bg-white/[0.03]">
             <div className="flex items-center gap-2">
