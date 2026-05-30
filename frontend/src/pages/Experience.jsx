@@ -27,9 +27,19 @@ export default function Experience() {
           >
             <div className="flex flex-wrap items-start gap-4 justify-between">
               <div>
-                <div className="flex items-center gap-2 text-sm font-mono uppercase tracking-widest text-emerald-600 dark:text-emerald-400">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                  {job.active ? "active" : "past"}
+                <div
+                  className={`flex items-center gap-2 text-sm font-mono uppercase tracking-widest ${
+                    job.active
+                      ? "text-emerald-600 dark:text-emerald-400"
+                      : "text-zinc-500 dark:text-zinc-400"
+                  }`}
+                >
+                  <span
+                    className={`h-1.5 w-1.5 rounded-full ${
+                      job.active ? "bg-emerald-500 animate-pulse" : "bg-zinc-400 dark:bg-zinc-500"
+                    }`}
+                  />
+                  {job.active ? "active" : "completed"}
                 </div>
                 <h2 className="text-2xl sm:text-3xl font-bold tracking-tight mt-2 text-zinc-900 dark:text-white">
                   {job.company}
@@ -105,22 +115,6 @@ export default function Experience() {
           </div>
         </section>
       ))}
-
-      {/* Upcoming role - greyed */}
-      <section
-        data-testid="upcoming-role"
-        className="rounded-2xl border border-dashed border-zinc-300 dark:border-white/15 p-6 sm:p-8 bg-zinc-50/60 dark:bg-white/[0.01] opacity-80"
-      >
-        <div className="font-mono text-[11px] uppercase tracking-widest text-zinc-500 dark:text-zinc-400">
-          upcoming · joining soon
-        </div>
-        <h2 className="text-xl sm:text-2xl font-bold mt-2 text-zinc-700 dark:text-zinc-300">
-          Senior Analyst — Data Engineer
-        </h2>
-        <div className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">
-          Accenture · Starting 29 May
-        </div>
-      </section>
     </div>
   );
 }

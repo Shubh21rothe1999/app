@@ -50,11 +50,30 @@ export const SKILLS = [
 
 export const EXPERIENCE = [
   {
+    company: "Accenture",
+    role: "Senior Data Engineer",
+    location: "Pune, India",
+    period: "May 2026 — Present",
+    active: true,
+    projects: [
+      {
+        title: "Joined — projects in onboarding",
+        role: "Senior Data Engineer",
+        tags: ["Databricks", "PySpark", "Cloud", "Azure", "AWS"],
+        bullets: [
+          "Onboarded into Accenture's Data & AI practice as a Senior Data Engineer.",
+          "Bringing 4+ years of Lakehouse, Medallion architecture and Spark expertise from Decimal Point Analytics.",
+          "Project assignment and detailed deliverables to be added as engagements begin.",
+        ],
+      },
+    ],
+  },
+  {
     company: "Decimal Point Analytics",
     role: "Senior Data Engineer",
     location: "Mumbai (HQ) · Working from Nashik",
-    period: "Jul 2022 — Present",
-    active: true,
+    period: "Jul 2022 — April 2026",
+    active: false,
     projects: [
       {
         title: "Servicer Data Onboarding — Medallion Architecture",

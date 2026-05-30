@@ -34,9 +34,16 @@ delivering cloud-native solutions using Lakehouse and Medallion Architecture.
 - Architecture: Medallion, Lakehouse, Star Schema, SCD Type-2
 
 ==== EXPERIENCE ====
-Company: Decimal Point Analytics, Mumbai (HQ), Nashik
-Role: Senior Data Engineer (Software Development Engineer track)
-Duration: Jul 2022 - Present
+Current Employer: Accenture, Pune, India
+Current Role: Senior Data Engineer
+Current Duration: May 2026 - Present
+(Just joined Accenture's Data & AI practice - project assignment in onboarding.)
+
+Previous Employer: Decimal Point Analytics, Mumbai (HQ), Nashik
+Previous Role: Senior Data Engineer (Software Development Engineer track)
+Previous Duration: Jul 2022 - April 2026 (Completed)
+
+All flagship project experience below is from the Decimal Point Analytics tenure:
 
 PROJECT 1: Servicer Data Onboarding (Medallion Architecture)
 - Led team of 2 juniors; ran 20-day PySpark/SQL/Databricks training.

@@ -64,9 +64,16 @@ SCD Type-2 modeling, and data pipeline optimization.
 - Interested in: Apache Kafka, Apache Airflow, dbt, Azure Data Factory, Azure Synapse
 
 ==== EXPERIENCE ====
-Company: Decimal Point Analytics, Mumbai (HQ), Working Location: Nashik
-Role: Senior Data Engineer (Software Development Engineer track)
-Duration: Jul 2022 – Present
+Current Employer: Accenture, Pune, India
+Current Role: Senior Data Engineer
+Current Duration: May 2026 - Present
+(Just joined Accenture's Data & AI practice — project assignment in onboarding phase.)
+
+Previous Employer: Decimal Point Analytics, Mumbai (HQ), Working Location: Nashik
+Previous Role: Senior Data Engineer (Software Development Engineer track)
+Previous Duration: Jul 2022 - April 2026 (Completed)
+
+All flagship project experience below is from the Decimal Point Analytics tenure:
 
 PROJECT 1: Servicer Data Onboarding (Medallion Architecture)
 - Led a team of 2 junior developers; ran a 20-day PySpark/SQL/Databricks training.
